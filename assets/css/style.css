@@ -3335,25 +3335,25 @@ a:visited {
 }
 
 #testimonials-slider-pager .testimonials-slider-pager-one .pager-item {
-	width: 71px;
+	width: 100px;
 	height: 71px;
 	display: inline-block;
 	vertical-align: middle;
 	position: absolute;
 }
-
+/*Витебск*/
 #testimonials-slider-pager .testimonials-slider-pager-one .pager-item:nth-child(1) {
-	top: 110px;
-	left: 32px;
+	top: 15px;
+	left: 300px;
 }
-
+/*Могилев*/
 #testimonials-slider-pager .testimonials-slider-pager-one .pager-item:nth-child(2) {
-	top: 110px;
-	right: 32px;
+	top: 170px;
+	left: 400px;
 }
-
+/*гродно*/
 #testimonials-slider-pager .testimonials-slider-pager-one .pager-item:nth-child(3) {
-	bottom: 110px;
+	top: 220px;
 	left: 32px;
 }
 
@@ -3394,22 +3394,23 @@ a:visited {
 	opacity: 0;
 	transition: all .4s ease;
 }
-
+/*Минск*/
 #testimonials-slider-pager .testimonials-slider-pager-two .pager-item.active {
 	opacity: 1;
-	transform: translate(-50%, -50%) scale(0.95);
+	transform: translate(-60%, -60%) scale(0.6);
 }
 
 #testimonials-slider-pager .testimonials-slider-pager-two .pager-item>img {
-	width: 100%;
-	border-radius: 50%;
+	width: 250px;
+    height: 200px;
+	border-radius: 35%;
 }
 
 #testimonials-slider-pager .testimonials-slider-pager-two .pager-item::after {
 	content: '';
 	width: 77px;
 	height: 63px;
-	background-image: url(../images/shapes/testi-qoute-1-1.png);
+	/*background-image: url(../images/shapes/testi-qoute-1-1.png);*/
 	position: absolute;
 	bottom: 0;
 	left: 50%;
